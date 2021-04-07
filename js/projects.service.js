@@ -9,7 +9,6 @@ var gProjects = [
         urlBig : 'none',
         date: '24.03.2021',
         type: 'Game',
-        // labels: [Matrixes, keyboardEvents],
     },
     {
         id: _makeId(),
@@ -21,7 +20,6 @@ var gProjects = [
         urlBig : 'none',
         date: '05.04.2021',
         type: 'Product System',
-        // labels: [Matrixes, keyboardEvents],
     },
     {
         id: _makeId(),
@@ -33,19 +31,17 @@ var gProjects = [
         urlBig : 'none',
         date: '21.03.2021',
         type: 'Simulator',
-        // labels: [Matrixes, keyboardEvents],
     },
     {
         id: _makeId(),
         name: 'Guess Who?',
         title: 'Guess Who?',
         desc: 'Interactive guessing game, "evolving" with each round!',
-        long: 'Think of a person, and let the game guess that person for you! with each round end in your win, the game learns another answer and gets smarter!',
+        long: 'Think of a person, and let the game guess that person for you! with each round ends with you winning, the game learns another answer and gets smarter!',
         url: './img/portfolio/guesswho.png',
         urlBig : 'none',
         date: '06.04.2021',
         type: 'Game',
-        // labels: [Matrixes, keyboardEvents],
     },
     {
         id: _makeId(),
@@ -57,7 +53,6 @@ var gProjects = [
         urlBig : 'none',
         date: '19.03.2021',
         type: 'Game',
-        // labels: [Matrixes, keyboardEvents],
     },
     {
         id: _makeId(),
@@ -69,7 +64,6 @@ var gProjects = [
         urlBig : 'none',
         date: '04.04.2021',
         type: 'Login System',
-        // labels: [Matrixes, keyboardEvents],
     },
 ]
 
