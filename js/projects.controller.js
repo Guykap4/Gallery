@@ -25,6 +25,8 @@ function renderPortSection() {
 
 function renderportfolio(title) {
     var currProj = getProjByTitle(title);
+    // $('.game-div').load(`./projs/${currProj.name}/index.html`);
+    $('.game-div').html(`<iframe width="900px" height="820px" src="./projs/${currProj.name}/index.html">`);
     $('.modal-proj-name').text(currProj.title);
     $('.modal-short-desc').text(currProj.desc);
     $('.modal-full-desc').text(currProj.long);

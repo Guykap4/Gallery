@@ -1,0 +1,92 @@
+body {
+    text-align: center;
+    font-family: cursive;
+    background-color: black;
+    background-image: url(./background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: burlywood;
+}
+
+.difficulty-container {
+    height: 50px;
+    width: 500px;
+    margin: auto;
+    line-height: 50px;
+    text-align: center;
+    background-color: rgba(61, 45, 45, 0.404);
+    border: burlywood 1px solid;
+    border-radius: 7px;
+}
+
+.difficulty-container p {
+    margin-top: 10px;
+    display: inline;
+}
+
+table {
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 100%;
+    width: 100%;
+    border-radius: 2%;
+    background-color: rgb(71, 90, 95);
+}
+
+table td {
+    background: linear-gradient(to bottom, #ffeb0f 5%, #edd851 100%);
+    background-color: #ffeb0f;
+    border-radius: 10px;
+    border: 2px solid #ffd230;
+    cursor: pointer;
+    color: black;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 17px 24px;
+    text-decoration: none;
+}
+
+table td:hover {
+    background: linear-gradient(to bottom, #edd851 5%, #ffeb0f 100%);
+    background-color: #edd851;
+}
+
+.board-container {
+    height: 500px;
+    width: 500px;
+    margin: auto;
+}
+
+.clicked {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.newgame-btn {
+    background: linear-gradient(to bottom, #ffeb0f 5%, #edd851 100%);
+    background-color: #edd851;
+    left: 15px;
+    top: 50px;
+    margin-right: 30px;
+    border-radius: 12%;
+    font-family: cursive;
+}
+
+.stopwatch {
+    height: 100px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    font-size: 80px;
+}
+
+.victory-div {
+    height: 100px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 80px;
+}

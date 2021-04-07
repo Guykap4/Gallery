@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Guess-Me</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/app.css" />
+</head>
+
+<body class="bg-light">
+
+  <header class="header row bg-dark">
+    <div class="header-img">
+      <img class="img-fluid" src="img/layout/logo.png" />
+    </div>
+    <h1 class="display-2 text-primary m-auto">Guess Who</h1>
+  </header>
+
+  <main>
+    <section class="game-start mt-5">
+      <h2 class="text-center text-info">Think of Someone...</h2>
+      <div class="text-center">
+        <button class="btn btn-start mt-5 btn-outline-warning">I'm Ready!</button>
+      </div>
+    </section>
+
+    <section class="quest" style="display: none">
+      <h2 class="text-center text-info mt-5"></h2>
+      <div class="text-center mt-5">
+        <button class="btn btn-no btn btn-outline-danger">No</button>
+        <button class="btn btn-yes btn btn-outline-success">Yes</button>
+      </div>
+    </section>
+
+    <section class="new-quest text-center mt-5" style="display: none;">
+      <h2 class="text-center text-info">OK, I gave up...</h2>
+
+      <form class="ending-form d-flex flex-column align-items-center mt-5">
+        <label for="newGuess">You thought of: </label>
+        <input class="mb-3" name="newGuess" type="txt" id="newGuess" placeholder="Your Guess" required />
+
+        <label for="newQuest">Question to differentiate:</label>
+        <input class="mb-3" name="newQuest" type="txt" id="newQuest" placeholder="answer's YES for above" required />
+
+        <button type="submit" class="btn btn-outline-info btn btn-add-guess">Make me Smarter!</button>
+      </form>
+    </section>
+
+    <section class="game-end mt-5" style="display: none;">
+      <h2 class="text-center text-info">I KNEW IT! IM THE BEST ALIVE!</h2>
+      <div class="text-center mt-5">
+        <button class="btn btn-end btn-outline-info">Play Again!</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="lib/jquery/jquery.js"></script>
+  <script src="js/storage.service.js"></script>
+  <script src="js/quest.service.js"></script>
+  <script src="js/quest.controller.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: antiquewhite;
+}
+
+.login {
+    width: 300px;
+    height: 300;
+    padding: 15px;
+}
+
+.loginInput {
+    width: 100%;
+    height: 30px;
+}
+
+.login-btn {
+    width: 100%;
+    margin: 20px 0;
+    height: 30px;
+    background-color: goldenrod;
+    border-radius: 5px;
+}
+
+.login-btn:hover {
+    background-color: burlywood;
+}
+
+.secret-content {
+    background-color: cadetblue;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.secret-content button {
+    align-self: flex-end;
+    padding: 10px;
+    margin: 5px 5px;
+    background-color: goldenrod;
+    border-radius: 5px;
+}
+
+.secret-content button:hover {
+    background-color: burlywood;
+}
+
+.content-header {
+    display: flex;
+    flex-basis: 100%;
+    background-color: darkgoldenrod;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.display-username {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.admin-link {
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: black
+}
+
+a:hover {
+    color: red;
+}

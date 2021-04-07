@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Admin Page</title>
+    <link rel="stylesheet" href="./css/admin.css">
+</head>
+
+<body onload="init()">
+
+    <table class="users-table">
+        <thead>
+            <td onclick="sortByUsername()">Username</td>
+            <td>Password</td>
+            <td onclick="sortByloginTime()">Last Login Time</td>
+            <td>Is Admin?</td>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+
+    <script src="./js/services/storage.service.js"></script>
+    <script src="./js/services/admin.service.js"></script>
+    <script src="./js/login-controller.js"></script>
+</body>
+
+</html>

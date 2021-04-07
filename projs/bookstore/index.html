@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Book Store</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body onload="init()">
+
+    <h2>Book Store</h2>
+
+    <button class="add-btn" onclick="onAddBook()">Add New Book</button>
+    <table class="book-table">
+        <thead>
+            <tr>
+                <td>ID</td>
+                <td onclick="onSort('abc')">Title</td>
+                <td onclick="onSort('high')">Price</td>
+                <td>Actions</td>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+    <div class="page-div">
+        <button onclick="onChangePage(-1)">-</button>
+        <span>1</span>
+        <button onclick="onChangePage(1)">+</button>
+    </div>
+
+    <div class="book-info">
+        <h2 class="book-title"></h2>
+        <div class="book-img"></div>
+        <h3>Short Description</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id repellendus, doloribus beatae impedit totam
+            dolore consectetur temporibus ab hic ipsum sequi voluptate molestias odit, animi officia quo suscipit odio,
+            excepturi et ea aut mollitia? Vel, corrupti adipisci, nostrum, rem veritatis quas pariatur id eos nesciunt
+            cum consequuntur labore porro voluptate!</p>
+        <h3 class="book-price"></h3>
+        <div class="rating">
+        </div>
+        <button class="close-btn" onclick="onCloseModal()">close</button>
+    </div>
+
+    <script src="./js/services/storage.service.js"></script>
+    <script src="./js/services/book.service.js"></script>
+    <script src="./js/book.controller.js"></script>
+</body>
+
+</html>

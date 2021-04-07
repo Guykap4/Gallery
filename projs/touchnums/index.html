@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./css/touchnums.css">
+    <title>Touch Nums</title>
+</head>
+
+<body>
+    <h1></h1>
+    <div class='difficulty-container'>
+        <button class="newgame-btn" onclick="resetGame()">new game</button>
+        <p>choose difficulty:</p>
+        <input type="radio" onclick="changeDiff(this)" id="easy" name="contact" value="16">
+        <label for="easy">Easy</label>
+
+        <input type="radio" onclick="changeDiff(this)" id="medium" name="contact" value="25">
+        <label for="medium">Medium</label>
+
+        <input type="radio" onclick="changeDiff(this)" id="hard" name="contact" value="36">
+        <label for="hard">Hard</label>
+    </div>
+    <div class="board-container">
+        <table class="board"></table>
+    </div>
+    <div class="stopwatch">00:000</div>
+    <div class="victory-div"></div>
+    <script src="./js/touchnums.js"></script>
+</body>
+
+</html>

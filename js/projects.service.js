@@ -1,7 +1,7 @@
 var gProjects = [
     {
         id: _makeId(),
-        name: 'Mine Sweeper',
+        name: 'minesweeper',
         title: 'Mine Sweeper',
         desc: 'Good ol\' Mine Sweeper experience',
         long: 'Enjoy my shot at the classic Mine Sweeper game!',
@@ -12,7 +12,7 @@ var gProjects = [
     },
     {
         id: _makeId(),
-        name: 'Book Store',
+        name: 'bookstore',
         title: 'Book Store',
         desc: 'Book store product backstage managment',
         long: 'Simulating a book store product managment system, that is able to add, remove, and update books - including price, rating.',
@@ -23,7 +23,7 @@ var gProjects = [
     },
     {
         id: _makeId(),
-        name: 'Chess Simulator',
+        name: 'chesssimulator',
         title: 'Chess Simulator',
         desc: 'Chess board for moves simulating',
         long: 'Chess board contains all pieces, with their respective moves.',
@@ -34,7 +34,7 @@ var gProjects = [
     },
     {
         id: _makeId(),
-        name: 'Guess Who?',
+        name: 'guesswho',
         title: 'Guess Who?',
         desc: 'Interactive guessing game, "evolving" with each round!',
         long: 'Think of a person, and let the game guess that person for you! with each round ends with you winning, the game learns another answer and gets smarter!',
@@ -45,7 +45,7 @@ var gProjects = [
     },
     {
         id: _makeId(),
-        name: 'Touch Nums',
+        name: 'touchnums',
         title: 'Touch Nums',
         desc: 'Speed based game, testing how good you are at spotting!',
         long: 'Game starts when you click first num (1), ends when you reach current difficulty last num. let\'s see how fast you really are...',
@@ -56,7 +56,7 @@ var gProjects = [
     },
     {
         id: _makeId(),
-        name: 'Safe Content',
+        name: 'safecontent',
         title: 'Safe Content',
         desc: 'A system operating as a login verification',
         long: 'Runs on local storage, I wouldn\'t recommend anyone using it as a true varificaton for anything. but, secret content is quite good if I\'m being honest...',

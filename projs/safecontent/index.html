@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Log In</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body onload="creatUsers()">
+    <section class="login">
+        <h2>Sign In!</h2>
+        <h3>Username:</h3>
+        <input class="loginInput" name="username" type="text" minlength="5" maxlength="10">
+        <h3>Password:</h3>
+        <input class="loginInput" name="password" type="text" minlength="8" maxlength="16">
+        <button class="login-btn" onclick="onLogIn()">Login</button>
+    </section>
+
+    <section class="secret-content">
+        <div class="content-header">
+            <div class="display-username">a</div>
+            <button onclick="onLogOut()">Log Out</button>
+        </div>
+        <div class="content">
+            <h2>Merageshi!</h2>
+            <div class="img"><img src=./img/peanuts.jpg></div>
+            <div class="admin-link"></div>
+        </div>
+    </section>
+
+
+    <script src="./js/services/users.service.js"></script>
+    <script src="./js/services/storage.service.js"></script>
+    <script src="./js/services/login.service.js"></script>
+    <script src="./js/login-controller.js"></script>
+</body>
+
+</html>
